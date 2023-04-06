@@ -3,7 +3,6 @@ A project on predicting whether it will rain tomorrow or not by using the Rainfa
 This project is tested over lot of ml models like catboost, xgboost, random forest, support vector classifier, etc..
 Out of these models catboost performed very well giving an AUC score around and ROC score of 89 far better than others.
 Here due to my system compatibility is very low. So I havent done hyperparameter tuning. But it is highly recommended to do it if possible.
-# Website Link: ["https://rainy-brain.herokuapp.com/"](https://rainy-brain.herokuapp.com/)
 
 # Testing values
 
@@ -15,7 +14,7 @@ Here due to my system compatibility is very low. So I havent done hyperparameter
 # Tech Stack
 * Front-End: HTML, CSS, Bootstrap
 * Back-End: Flask
-* IDE: Jupyter notebook, Pycharm
+* IDE: VSCode
 
 # How to run this app
 * First create a virtual environment by using this command:
@@ -33,7 +32,7 @@ Here due to my system compatibility is very low. So I havent done hyperparameter
 * About Rainy Brain:
 ![About](githubimgs/about.png)
 * Dashboard:
-![Dashboard](githubimgs/dashboard.png)
+![Dashboard](githubimgs/dashboard.jpeg)
 * Developer:
 ![Developer](githubimgs/developer.png)
 * Predictor:
@@ -56,11 +55,9 @@ Here due to my system compatibility is very low. So I havent done hyperparameter
 * Different types of models were tried like catboost, random forest, logistic regression, xgboost, support vector machines, knn, naive bayes.
 * Out of these catboost, random forest and support vector machines were top 3
 * The conclusion were made using classification metrics. roc curve and auc score
-# Model Deployment
-* The model is deployed using Flask at Heroku server at the [link](https://rainy-brain.herokuapp.com/)
 
 # If you like this project please do give a star. I am also giving my LinkedIn profile. If you want we can connect there too
-[https://www.linkedin.com/in/vasanth-p-90826218b/](https://www.linkedin.com/in/vasanth-p-90826218b/)
+[https://www.linkedin.com/in/kousik-nandi-a65202191/](https://www.linkedin.com/in/kousik-nandi-a65202191/)
 
 
 
