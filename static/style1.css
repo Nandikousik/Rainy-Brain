@@ -45,7 +45,7 @@ section:nth-child(1) .media-icons i {
 
 #info {
 	display: flex;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	align-items: center;
 	background-color: #eee;
 	min-height: 95vh;
