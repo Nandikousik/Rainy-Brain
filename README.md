@@ -15,13 +15,14 @@ Here due to my system compatibility is very low. So I havent done hyperparameter
 # Tech Stack
 * Front-End: HTML, CSS, Bootstrap
 * Back-End: Flask
+* Machine Learning
 * IDE: VSCode
 
 # How to run this app
 * First create a virtual environment by using this command:
-* conda create -n myenv python=3.6
+* virtualenv venv
 * Activate the environment using the below command:
-* conda activate myenv
+* Goto venv/Scripts...then activate
 * Then install all the packages by using the following command
 * pip install -r requirements.txt
 * Now for the final step. Run the app
@@ -57,6 +58,8 @@ Here due to my system compatibility is very low. So I havent done hyperparameter
 * Different types of models were tried like catboost, random forest, logistic regression, xgboost, support vector machines, knn, naive bayes.
 * Out of these catboost, random forest and support vector machines were top 3
 * The conclusion were made using classification metrics. roc curve and auc score
+# Model Deployment
+* The model is deployed using Flask at Render server at the [link](https://rainybrainml.onrender.com/)
 
 # If you like this project please do give a star. I am also giving my LinkedIn profile. If you want we can connect there too
 [https://www.linkedin.com/in/kousik-nandi-a65202191/](https://www.linkedin.com/in/kousik-nandi-a65202191/)
